@@ -1,0 +1,86 @@
+Classfile /Users/adamrojewski/Documents/Homeworks/src/main/java/JVMProject/JVMArray.class
+  Last modified 2019-02-24; size 1012 bytes
+  MD5 checksum 94008688fc5e7663121bba0a32789912
+  Compiled from "JVMArray.java"
+public class JVMProject.JVMArray
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #13.#26        // java/lang/Object."<init>":()V
+   #2 = Methodref          #12.#27        // JVMProject/JVMArray.newArray:()V
+   #3 = Methodref          #12.#28        // JVMProject/JVMArray.anotherArray:()V
+   #4 = Fieldref           #29.#30        // java/lang/System.out:Ljava/io/PrintStream;
+   #5 = Class              #31            // java/lang/StringBuilder
+   #6 = Methodref          #5.#26         // java/lang/StringBuilder."<init>":()V
+   #7 = String             #32            // the sum is
+   #8 = Methodref          #5.#33         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #9 = Methodref          #5.#34         // java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+  #10 = Methodref          #5.#35         // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #11 = Methodref          #36.#37        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #12 = Class              #38            // JVMProject/JVMArray
+  #13 = Class              #39            // java/lang/Object
+  #14 = Utf8               <init>
+  #15 = Utf8               ()V
+  #16 = Utf8               Code
+  #17 = Utf8               LineNumberTable
+  #18 = Utf8               main
+  #19 = Utf8               ([Ljava/lang/String;)V
+  #20 = Utf8               newArray
+  #21 = Utf8               StackMapTable
+  #22 = Class              #40            // "[I"
+  #23 = Utf8               anotherArray
+  #24 = Utf8               SourceFile
+  #25 = Utf8               JVMArray.java
+  #26 = NameAndType        #14:#15        // "<init>":()V
+  #27 = NameAndType        #20:#15        // newArray:()V
+  #28 = NameAndType        #23:#15        // anotherArray:()V
+  #29 = Class              #41            // java/lang/System
+  #30 = NameAndType        #42:#43        // out:Ljava/io/PrintStream;
+  #31 = Utf8               java/lang/StringBuilder
+  #32 = Utf8               the sum is
+  #33 = NameAndType        #44:#45        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #34 = NameAndType        #44:#46        // append:(I)Ljava/lang/StringBuilder;
+  #35 = NameAndType        #47:#48        // toString:()Ljava/lang/String;
+  #36 = Class              #49            // java/io/PrintStream
+  #37 = NameAndType        #50:#51        // println:(Ljava/lang/String;)V
+  #38 = Utf8               JVMProject/JVMArray
+  #39 = Utf8               java/lang/Object
+  #40 = Utf8               [I
+  #41 = Utf8               java/lang/System
+  #42 = Utf8               out
+  #43 = Utf8               Ljava/io/PrintStream;
+  #44 = Utf8               append
+  #45 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #46 = Utf8               (I)Ljava/lang/StringBuilder;
+  #47 = Utf8               toString
+  #48 = Utf8               ()Ljava/lang/String;
+  #49 = Utf8               java/io/PrintStream
+  #50 = Utf8               println
+  #51 = Utf8               (Ljava/lang/String;)V
+{
+  public JVMProject.JVMArray();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 5: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #2                  // Method newArray:()V
+         3: invokestatic  #3                  // Method anotherArray:()V
+         6: return
+      LineNumberTable:
+        line 7: 0
+        line 8: 3
+        line 9: 6
+}
+SourceFile: "JVMArray.java"
